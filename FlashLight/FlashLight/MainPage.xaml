@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlashLight.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <ImageButton Source="ON.png"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                    Clicked="ON_ImageButtonClicked" />
+
+            <ImageButton Source="OFF.png"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                    Clicked="OFF_ImageButtonClicked" />
+
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
